@@ -1,0 +1,7 @@
+- Fragments aparece como exercício (no cap 4 ) antes de ser explicado (no cap 5)
+- Fazer um commit removendo todos os # a mais (em vários lugares na apostila)
+- ./arquivosDoCurso-js46/curso/02-estruturaBaseDoTwitelum tá diferente do repositório
+- Colocar uma imagem de como deve ficar ao final do capítulo
+- Arquivos importados não tão com CSS Modules -> trocar tudo
+- Título do capítulo 5 está errado
+- Atualizar foto do node (tá na 8.9, já estamos na 14.16)

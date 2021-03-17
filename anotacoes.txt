@@ -1,0 +1,126 @@
+Cap 1:
+    - Explicação geral do curso e do projeto que vai ser feito
+    - Documentação do React é muito boa! https://pt-br.reactjs.org/docs/hello-world.html
+Cap 2:
+    - Instalação do node, npm e create-react-app
+    - Verificar logo na primeira aula se todos os alunos estão com tudo instalado
+Cap 3:
+    - Estados no frontend
+    - Lib vs framework
+    - Virtual DOM
+    - Componentes
+        - Via funções
+        - Via classes
+    - Babel
+        - Estudar Babel, Polyfill
+        - Compilação: Termo genérico para a transformação de um código escrito em uma linguagem para outra linguagem
+        - Transpilação: Termo específico para a transformação de um código escrito em uma linguagem para outra linguagem com mesmo nível de abstração
+Cap 4:
+    - EXERCÍCIO do HTML pro JSX
+Cap 5:
+    - Componentes
+        - Props
+        - this.props
+        - this.props.children
+    - fragments
+Cap 6:
+    - EXERCÍCIO Compondo componentes por meio do "props.children"
+        - Comenta sobre CSS BEM
+        - CSS Modules (Sugerir instalar plugin do vscode)
+        - Comenta sobre SASS
+Cap 7:
+    - EXERCÍCIO Importando o restante da estrutura do projeto
+Cap 8:
+    - EXERCÍCIO Criando Tweets parte 1: validando com estado
+    - constructor
+        - super
+    - state
+    - Eventos
+        - onChange - arrow function
+Cap 9:
+
+Gerais:
+    - Pesquisar sobre o DOM (Document Object Model) (e salvar nos favoritos)
+    - Pesquisar sobe CSS BEM (e salvar nos favoritos)
+    - Pesquisar sobre CSS Modules
+    - Pesquisar sobre SASS
+
+
+--------------------------------------------------------------
+
+Separando por dias (noturno)
+
+Dia 1: Caps 1 ao 4
+
+# React e Redux
+
+- React
+    - Componentes
+    - Fragments
+    - super() e this
+    - Eventos
+    - State
+    - Binds
+        - Two way data binds
+    - Roteamento
+        - React Router V4
+            - BrowserRouter
+            - Switch
+            - Route
+                - path * -> 404
+            - Link - navegação sem refresh
+    - Props
+        - Props Drilling
+        - One way data flow
+    - Ciclo de vida do componente
+        - componentDidMount()
+    - React Helmet
+    - PropTypes
+
+    - Stateful/Stateless
+    - Padrão Observable
+    - Referências para funções e bind
+    - Functions components
+    - Forms e Hooks
+    - UseState
+    - Regras dos hooks
+    - Tratamento de erros
+    - Styled Component
+    - Máquina de estados
+    - Context API
+    - Injeção de dependências
+    - useEffect
+    - Stepper
+    - UseContext
+    - Providers
+    - Hooks customizados
+- Redux
+    - Store
+        - subscribe
+        - dispatch
+        - reducer
+        - action
+            - actionCreator
+                - thunk
+- react-redux
+    - Provider
+    - ReactReduxContext
+- redux-thunk
+    - ducks
+- Server-side Rendering
+
+Palestra sobre ContextApi do Soutinho
+https://docs.google.com/presentation/d/1qNHQP6qLWV3MED_jRZnL48kSYsp36LUai7bASc1zIu8/edit#slide=id.g579942df2d_0_0
+
+Notion com timing do curso:
+    - https://www.notion.so/JS-46-React-e-Redux-para-constru-o-de-Web-Apps-042d9fc909044b1cbba4c2d669593f61
+
+Links legais:
+    - ???
+        - https://codesandbox.io/s/redux-fundamentals-core-example-lr7k1?from-embed
+    - ???
+        - https://codepen.io/gaearon/pen/amqdNA?editors=0010
+    - Chaves e parênteses no react:
+        - https://medium.com/@leannezhang/curly-braces-versus-parenthesis-in-reactjs-4d3ffd33128f
+    - React lifecycle diagram:
+        - https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/

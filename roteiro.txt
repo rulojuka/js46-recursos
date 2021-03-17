@@ -1,0 +1,369 @@
+Objetivo do dia 1: dar uma visão geral do que é o React e como ele funciona
+
+- Overview história frontend
+  - Viagem no tempo:
+    - Windows 95 - https://images.techhive.com/images/article/2015/08/windows-95-100609567-large.jpg
+    - Windows Maze - https://www.youtube.com/watch?v=MHGnSqr9kK8
+    - Johnny Castaway - https://www.youtube.com/watch?v=6wKyK_nPUlQ
+
+  - Década de 1990
+    - (1990) HTML (https://motherfuckingwebsite.com/)
+    - (1994) Netscape
+    - (1995) Internet Explorer
+      - Browser wars
+    - (1995) Java Applets
+      - http://e-valid.com/Applications/java.applet/Images/java13.gif
+      - https://upload.wikimedia.org/wikipedia/commons/2/29/ChessApplet.png
+    - (1995) JavaScript
+    - Yahoo em 1995: https://qph.fs.quoracdn.net/main-qimg-87d032da1897329faa8d4f29af55a525-c
+    - MSN: https://www.serverwatch.com/wp-content/uploads/2020/09/learn-exchange-server-2000-setting-up-outlook-web-access-to-use-ssl-page-3_5f5ee934dc0a2.gif
+    - (1996) CSS
+  - Década de 2000
+    - (2000) Flash 5 + ActionScript
+      - www.roverinformatica.com.br
+    - (2000) XHR (XMLHttpRequest) e AJAX
+    - (2001) Wikipedia (Comecei a usar em 2003)
+    - (2002) Primeira demo de SPA (Single Page Application)
+    - (2004) Gmail (Só bombou mesmo em 2006)
+      - Exemplo principal de SPA até hoje
+      - https://imgix.bustle.com/rehost/2016/9/13/991f15f7-b956-4edd-a947-f92cbf9fca55.png?w=970&h=546&fit=crop&crop=faces&auto=format&q=70
+    - (2005) YouTube (Só bombou mesmo em 2006 - Comprado pelo Google)
+      - Streaming de vídeo
+      - http://macoratti.net/07/09/vbn5ytb1.gif
+    - (2004) Facebook (Só bombou mesmo em 2009)
+      - Scroll infinito
+      - https://businesstech.co.za/news/wp-content/uploads/2015/02/Facebook-2004.png
+    - (2005) Google Talk (Dentro do gmail)
+      - Trazendo mais coisa pra web (lembra que a gente tava usando MSN?)
+      - https://i.ytimg.com/vi/fQ1hrsIJoFg/hqdefault.jpg
+    - (2008) WebSockets
+  - Década de 2010
+    - (2010) - "Thoughts on Flash" - Steve Jobs
+    - (2011) - Parênteses: Smart Phone + Android + IOs + Windows Phone
+    - (2011) - TODA PADARIA PRECISA DE UM APP! APPS VÃO SALVAR O MUNDO DAS CÁRIES!
+    - Frameworks frontend
+        - (2010) AngularJS
+        - (2011) Ember.js
+        - (2012) Meteor.js
+        - (2013) React - Facebook
+        - (2014) Vue.js
+        - (2016) Svelte
+    - (2014) HTML5
+    - (2015) Progressive Web Apps (vinha antes, mas foi definida aqui)
+      - Progressive — Works for every user, regardless of browser choice, using progressive enhancement principles.
+      - Responsive — Fits any form factor: desktop, mobile, tablet, or forms yet to emerge.
+      - Faster after initial loading - After the initial loading has finished, the same content and page elements do not have to be re-downloaded each time.
+      - Connectivity independent — Service workers allow offline uses, or on low quality networks.
+      - App-like — Feels like an app to the user with app-style interactions and navigation.
+      - Fresh — Always up-to-date due to the service worker update process.
+      - Safe — Served via HTTPS to prevent snooping and ensure content hasn't been tampered with.
+      - Discoverable — Identifiable as an “application” by manifest.json and service worker registration, and discoverable by search engines.
+      - Re-engageable — Ability to use push notifications to maintain engagement with the user.
+      - Installable — Provides homescreen icons without the use of an App Store.
+      - Linkable — Can easily be shared via a URL, and does not require complex installation.
+    - Cenário atual:
+      - Muito estado salvo no cliente (pensa no gmail)
+        - Alterações são desenhadas antes de serem salvas no servidor
+          - Exemplo da foto do instagram
+      - UI complexa
+      - Interação entre usuários (chat, likes, retweets)
+      - Escalabilidade de desenvolvimento (número de devs crescendo em projetos)
+      - Costuma ser levado pelos maiores sites - nem todo mundo precisa de um facebook.
+        - W3C
+        - ECMAScript
+
+- O que o curso NÃO é:
+  - Curso de HTML
+  - Curso de CSS
+  - Sintaxe de javascript
+- O que o curso é:
+  - React
+    - A JavaScript library for building user interfaces
+  - Redux
+    - Falamos mais sobre o Redux depois
+  - Curso sobre o framework React, aprendendo na prática os seus conceitos básicos e alguns mais avançados
+  - Ele permite que você siga sozinho com a documentação após o curso.
+- Pré-requisitos
+  - HTML básico
+  - CSS básico
+  - Javascript básico
+- Projeto: Twitelum
+  - Mostrar rodando local
+  - Vai ser construído durante os exercícios. Primeiro a UI, depois a comunicação com o servidor
+  - Servidor está no heroku.
+    - Endereço: https://twitelum-api.herokuapp.com
+    - Código fonte: https://github.com/omariosouto/twitelum-api
+    - Usuários: omariosouto, artdiniz, marcobrunobr, vanessametonini
+- MUITA COISA NA INTERNET!!!
+  - Documentação maravilhosa (em português!)
+    - https://pt-br.reactjs.org/docs/getting-started.html
+  - Hipsters.tech
+    - https://hipsters.tech/guia-do-iniciante-em-react-hipsters-209/
+    - https://hipsters.tech/angular-vs-react-hipsters-142/
+    - https://hipsters.tech/react-o-framework-onipresente-hipsters-66/
+    - https://hipsters.tech/evolucao-e-especificacao-do-javascript-moderno/
+    - https://hipsters.tech/single-page-applications-hipsters-16/
+    - https://hipsters.tech/css-cansei-de-ser-simples-hipsters-09/
+    - https://hipsters.tech/progressive-web-apps-hipsters-03/
+  - Sandboxes
+    - https://codepen.io/
+    - https://codesandbox.io
+- Dúvidas?
+
+- Node
+  - O quê é?
+    - Runtime JavaScript em cima da V8
+  - Como funciona?
+    - Instalação
+    - Execução
+  - Para quê?
+    - create-react-app
+
+- NPM
+  - O quê é?
+    - Node Package Manager (Gerenciador de pacotes do node)
+  - Como funciona?
+    - Você fala pra ele quais pacotes precisa e ele se responsabiliza de baixar e organizar tudo
+
+- create-react-app
+
+- EXERCÍCIO (Capítulo 2): node + npm + create-react-app (15 min)
+
+- Hello World
+  - https://codepen.io/pen?&editable=true&editors=0010
+  Html:
+    <div id="app"></app>
+  JS:
+    class App extends React.Component {
+      render() {
+        return <div>
+          <h1>Hello, world!</h1>
+        </div>;
+      }
+    }
+    React.render(<App />, document.getElementById('app'));
+
+- React? Pra quê?
+  - Atualizações performáticas
+  - Gerenciamento de estados
+    - Exemplos em https://reactjs.org/
+    - Horário: https://codepen.io/gaearon/pen/amqdNA?editors=0010
+  - Componentização
+    - https://pt-br.reactjs.org/docs/thinking-in-react.html
+  - Libs vs Frameworks
+    - React não se propõe a ditar a arquitetura da sua aplicação
+  - Virtual DOM
+
+- Babel, transpilação, JSX
+  - Mostrar no https://babeljs.io/repl
+    - const x = <h1 className="title">Titulo</h1>
+
+- Componentes
+    - Props
+    - this.props
+    - this.props.children
+- Fragments
+
+- EXERCÍCIO Compondo componentes por meio do "props.children"
+    - Comenta sobre CSS BEM
+    - CSS Modules (Sugerir instalar plugin do vscode)
+    - Comenta sobre SASS
+
+- EXERCÍCIO Importando o restante da estrutura do projeto
+
+
+--------------------- Final do dia 1 noturno -------------------
+
+- Estado
+    - O que é?
+    - Relação com render
+    - Constructor
+      - this.state =
+    - Resto
+      - this.setState({...})
+- Eventos
+    - Binding
+function funcaoTeste () { console.log(this) }
+funcaoTeste() // => O valor é: Window
+objetoDeTeste = { funcaoTesteDentroDoObjetoTeste: funcaoTeste }
+objetoDeTeste.funcaoTesteDentroDoObjetoTeste() // => O valor é: objetoDeTeste{}
+    - "Two Way data Binding"
+      - interface muda o estado + estado muda a interface
+- Renderização condicional
+
+- EXERCÍCIO (Capítulo 8): Criando tweets parte 1: validando com estado (30 min)
+
+- Renderização de listas
+- EXERCÍCIO (Capítulo 10): Criando tweets parte 2: inserindo tweet na página   (30 min)
+
+- Roteamento:
+  - O que é roteamento?
+  - Roteamento feito na mão
+
+function roteia(endereco){
+  if(endereco	===	'/sobre')	{
+    return <Sobre	/>
+    }	else	{
+    return <App	/>
+    }
+}
+
+ReactDOM.render(
+  <React.StrictMode>
+    { roteia(window.location.pathname) }
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+  - Não é possível renderizar 2 componentes
+  - Componente com switch
+  - React-router-dom
+
+- EXERCÍCIO (Capítulo 12): Roteamento, a página de login e a organização das rotas (30 min)
+
+--------------------- Final do dia 2 noturno -------------------
+
+- Hooks (React 16.8 - 02/2019)
+  - O que é um Hook?
+    - Um Hook é uma função especial que te permite utilizar recursos do React. Por exemplo, useState é um Hook que te permite adicionar o state do React a um componente de função.
+  - Quando eu deveria usar um Hook?
+    - Se você escreve um componente de função e percebe que precisa adicionar algum state para ele, anteriormente você tinha que convertê-lo para uma classe. Agora você pode usar um Hook dentro de um componente de função existente. Vamos fazer isso agora mesmo
+  - Só funciona em "function components"
+  - Revisar sintaxe de destructuring
+  - Regras dos Hooks
+    - Não use Hooks dentro de loops, regras condicionais ou funções aninhadas (funções dentro de funções).
+    - Use Hooks Apenas Dentro de Funções do React
+
+- Context API
+  - Apresentação do Soutinho
+    - https://docs.google.com/presentation/d/1qNHQP6qLWV3MED_jRZnL48kSYsp36LUai7bASc1zIu8
+
+- withRouter - this.props.history.push('/')
+  - https://stackoverflow.com/a/42716055/2272160
+  - https://reactrouter.com/web/api/withRouter
+
+- EXERCÍCIO (Capítulo 13): Notificando o login bem sucedido (30 min)
+
+---------------------- Final do dia 3 noturno -------------------
+
+- AJAX
+  - Callbacks vs Promises
+    - Antigo XMLHttpRequest
+    - jQuery
+    - Pyramid of doom com callbacks
+      - https://javascript.info/callbacks
+  - Um pouco mais sobre Fetch (métodos POST e Headers)
+    - Async/Await
+      - Async: Permite o await
+      - Await:
+        - Faz a função async pausar até a promise "settle"
+        - Faz a função que chamou a função async continuar em uma outra linha de execução de código
+- ref do react
+- EXERCÍCIO (Capítulo 14): Lógica do login (20 min)
+
+- localStorage + auth Token
+- EXERCÍCIO (Capítulo 15): Autenticando as rotas (30 min)
+
+- (OPCIONAL) EXERCÍCIO (Capítulo 16): Em busca da página 404 (10 min)
+
+- Separação de código
+  - UI
+  - Services
+
+- EXERCÍCIO (Capítulo 18): Organizando códigos - separando a lógica de acesso a serviços externos em serviços (20 min)
+
+- Controlled Components
+
+- EXERCÍCIO (Capítulo 19): Organizando códigos - lidando com formulários mais complexos (30 min)
+- (OPCIONAL) EXERCÍCIO (Capítulo 20): Organizando códigos - lidando com formulários mais complexos e reusando o tratamento dos campos (30 min)
+- EXERCÍCIO (Capítulo 21): Salvando Tweets com AJAX
+
+---------------------- Final do dia 4 noturno -------------------
+
+
+- Lifecycle do React (componentDidMount)
+- EXERCÍCIO (Capítulo 22): Trazendo Tweets com AJAX - utilizando o Lifecycle do React (5 min)
+
+- react-helmet
+- EXERCÍCIO (Capítulo 23): Manipulando o head das páginas com React (10 min)
+
+- EXERCÍCIO (Capítulo 24): Dando like nos tweets com estado interno
+- EXERCÍCIO (Capítulo 25): Removendo Tweets
+
+- Tipagem e propTypes
+  - Component.propTypes
+  - Component.defaultProps
+
+- EXERCÍCIO (Capítulo 26): Tipando as propriedades com propTypes
+
+---------------------- Final do dia 5 noturno -------------------
+
+- Briefing rápido do Modal de tweet
+- EXERCÍCIO (Capítulo 28): Criando o modal para visualizar o tweet
+
+- Overview Redux (90 min)
+  - Revisão Lifting state up (na mão, por callback)
+  - Revisão ContextAPI
+  - Motivação de passagem de informação entre componentes
+  - Single Source of Truth
+  - Store
+  - Modelo de comunicação Publisher/Subscriber
+  - Action
+    - Qualquer objeto com um chave "type"
+  - Dispatcher
+  - Reducer
+    - Funções puras
+  - 3 Princípios
+    - Single Source of Truth
+    - O estado é somente-leitura
+    - Mudanças são feitas com funções puras
+  
+- EXERCÍCIO (Capítulo 30): State dessincronizado, SSOT e reestruturação do fluxo de dados (30 min)
+
+- EXERCÍCIO (Capítulo 31): Organizando a parte de acesso a dados da nossa app (30 min)
+  - Melhor já fazer isso desde o momento que apresenta o TweetsService
+
+
+---------------------- Final do dia 6 noturno -------------------
+
+- store
+  - global no window
+  - Dentro do contexto do react
+
+- EXERCÍCIO (Capítulo 32): Removendo a Store do Window e deixando privada no contexto do React
+
+- Código assíncrono com redux-thunks
+  - Thunks
+  
+    // 'hypot' is a binary function
+    const hypot = (x, y) => Math.sqrt(x * x + y * y);
+
+    // 'thunk' is a function that takes no arguments and, when invoked, performs a potentially expensive
+    // operation (computing a square root, in this example) and/or causes some side-effect to occur
+    const thunk = () => hypot(3, 4);
+
+    // the thunk can then be passed around without being evaluated...
+    doSomethingWithThunk(thunk);
+
+    // ...or evaluated
+    thunk(); // === 5
+
+
+    - https://daveceddia.com/what-is-a-thunk/
+    - https://medium.com/fullstack-academy/thunks-in-redux-the-basics-85e538a3fe60
+  - Ducks https://github.com/erikras/ducks-modular-redux
+
+- EXERCÍCIO (Capítulo 33): Gerenciando processos assíncronos no Redux com Thunks e organizando no formato Ducks (30 min)
+- EXERCÍCIO (Capítulo 34): Separando a funcionalidade de adicionar um Tweet (20 min)
+- EXERCÍCIO (Capítulo 35): Separando a função de remover (15 min)
+- EXERCÍCIO (Capítulo 36): Isolando responsabilidades do Tweet em um container component (20 min)
+
+---------------------- Final do dia 7 noturno -------------------
+
+
+
+- ✍️  **Capítulo 37: Gerenciando o Tweet ativo por meio do Redux** 🕰  20
+- ✍️  **Capítulo 38: Externalizando o like para o Redux** 🕰  30
+- ＋ **Capítulo 39: Performance em aplicações React: Server-side render**
+- ＋ **Capítulo 40: Dicas gerais para seguir pós-curso com o desenvolvimento React**
+
+---------------------- Final do dia 8 noturno -------------------
