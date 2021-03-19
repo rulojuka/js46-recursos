@@ -232,8 +232,15 @@ ReactDOM.render(
   - Regras dos Hooks
     - Não use Hooks dentro de loops, regras condicionais ou funções aninhadas (funções dentro de funções).
     - Use Hooks Apenas Dentro de Funções do React
+  - Exercício para praticar: Codepen com dois estados dentro do mesmo componente: um botão de contador e um botão on/off
+
+- Props Drilling
+- State Elevation
+- Mostrar https://codepen.io/gaearon/pen/WZpxpz
+  - Exercício: Forma simplificada do https://codepen.io/gaearon/pen/WZpxpz
 
 - Context API
+  - Pra quê, não dá pra usar Props Drilling e State Elevation?
   - Apresentação do Soutinho
     - https://docs.google.com/presentation/d/1qNHQP6qLWV3MED_jRZnL48kSYsp36LUai7bASc1zIu8
 
@@ -241,9 +248,9 @@ ReactDOM.render(
   - https://stackoverflow.com/a/42716055/2272160
   - https://reactrouter.com/web/api/withRouter
 
-- EXERCÍCIO (Capítulo 13): Notificando o login bem sucedido (30 min)
-
 ---------------------- Final do dia 3 noturno -------------------
+
+- EXERCÍCIO (Capítulo 13): Notificando o login bem sucedido (30 min)
 
 - AJAX
   - Callbacks vs Promises
