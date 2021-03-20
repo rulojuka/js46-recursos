@@ -5,3 +5,4 @@
 - Arquivos importados não tão com CSS Modules -> trocar tudo
 - Título do capítulo 5 está errado
 - Atualizar foto do node (tá na 8.9, já estamos na 14.16)
+- Atualizar sintaxe de refs no capítulo 14.2 pág 53
