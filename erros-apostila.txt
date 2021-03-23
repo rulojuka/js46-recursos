@@ -6,3 +6,5 @@
 - Título do capítulo 5 está errado
 - Atualizar foto do node (tá na 8.9, já estamos na 14.16)
 - Atualizar sintaxe de refs no capítulo 14.2 pág 53
+- Código do inputLogin está errado no início da página 66 ( capítulo 19.2)
+- Exercício de mostrar tweets deveria vir antes do exercicio de inserir tweet pros alunos conseguirem ver o resultado
